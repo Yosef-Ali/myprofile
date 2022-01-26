@@ -22,7 +22,7 @@ export const projects = [
 	{
 		title: 'Nhcda.org',
 		description:
-			'E- commerce web to sale handmade and to collect donation online. Under construction',
+			'E- commerce web to sell handmade and collect donation online. Under construction.',
 		image: '/images/nhcda.png',
 		tags: ['React', 'Stripe', 'Elementor', 'wordpress'],
 		source: '#',
@@ -32,7 +32,7 @@ export const projects = [
 	{
 		title: 'Central Hotel Jimma',
 		description:
-			'Web app a hotel rooms management and web site. Under construction',
+			'Web app a hotel rooms management and web site. Under construction.',
 		image: '/images/CentralHotel.jpg',
 		tags: ['React', 'NextJs', 'GraphqlCMS', 'Firebase'],
 		source: '#',
