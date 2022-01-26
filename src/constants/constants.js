@@ -1,6 +1,6 @@
 export const projects = [
 	{
-		title: 'Saftey Net World Bank',
+		title: 'Saftey Net World Bank(UPNSP)',
 		description:
 			'Bootstrap 4 100+ Dashboard page chart template customization, Front end only ',
 		image: '/images/safetyNet1.png',
