@@ -6,7 +6,7 @@ export const projects = [
 		image: '/images/safetyNet1.png',
 		tags: ['Bootstrap', 'Jquery', 'Css', 'Html'],
 		source: '#',
-		visit: '#',
+		visit: 'https://upsnpdemo.netlify.app',
 		id: 0,
 	},
 	{
