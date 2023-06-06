@@ -5,6 +5,10 @@ export const Img = styled.img`
 	height: 100%;
 	object-fit: cover;
 	overflow: hidden;
+	transition: 0.5s;
+	&:hover {
+	  transform: scale(1.1);
+	}
 `;
 
 export const GridContainer = styled.section`
