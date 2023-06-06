@@ -5,12 +5,12 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+
+  transform: translate(-50%, -50%) translateY(-40%);
   transition: 0.5s;
 
-  transform: translate(-50%, -50%) scale(0.4);
-
   &:hover {
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) translateY(0);
   }
 `;
 
