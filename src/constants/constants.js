@@ -20,7 +20,7 @@ export const projects = [
 		id: 1,
 	},
 	{
-		title: 'Catholic Archdiocese of Addis Ababa',
+		title: 'Catholic Addis Ababa',
 		description:
 			'CMS News and Blog',
 		image: '/images/acs-cms-web.png',
