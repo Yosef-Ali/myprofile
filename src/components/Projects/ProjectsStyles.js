@@ -6,8 +6,9 @@ export const Img = styled.img`
 	object-fit: cover;
 	overflow: hidden;
 	transition: 0.5s;
+	transform: translateY(0); // Move the image back to the original position
 	&:hover {
-	  transform: scale(1.1);
+	  transform: translateY(-10px); // Move the image up by 10px
 	}
 `;
 
