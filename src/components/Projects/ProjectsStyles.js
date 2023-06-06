@@ -2,15 +2,15 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width: 100%;
-  height: 100%;
+  height: 40%;
   object-fit: cover;
   overflow: hidden;
 
-  transform: translate(-50%, -50%) translateY(-40%);
+  transform:  translateY(0%);
   transition: 0.5s;
 
   &:hover {
-    transform: translate(-50%, -50%) translateY(0);
+    transform:  translateY(-40%));
   }
 `;
 
