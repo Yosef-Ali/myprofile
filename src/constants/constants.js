@@ -33,7 +33,7 @@ export const projects = [
 		title: 'Central Hotel Jimma',
 		description:
 			'Web app a hotel rooms management and web site. Under construction.',
-		image: '/images/CentralHotel.jpg',
+		image: '/images/central-jimma-home.jpg',
 		tags: ['React', 'NextJs', 'GraphqlCMS', 'Firebase'],
 		source: '#',
 		visit:

@@ -8,7 +8,7 @@ export const Img = styled.img`
 	transition: 0.5s;
 	transform: translateY(0); // Move the image back to the original position
 	&:hover {
-	  transform: translateY(-10px); // Move the image up by 10px
+	  transform: translateY(-100%); // Move the image up by 10px
 	}
 `;
 
