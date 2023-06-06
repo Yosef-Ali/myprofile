@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width: 100%;
-  height: 40%;
-  object-fit: cover;
-  top: 0;
-  left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	transition: transform 0.5s ease-in-out;
+	&:hover ${Img} {
+		transform: translateY(-100%);
+	}
 `;
 
 export const GridContainer = styled.section`
