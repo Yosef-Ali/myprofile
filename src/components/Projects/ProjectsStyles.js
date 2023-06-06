@@ -12,7 +12,7 @@ export const Img = styled.img`
 	height: 100%;
 	object-fit: cover;
 	object-position: top center;
-    transition: all 4s ease-in-out;
+    transition: all 6s ease-in-out;
 	&:hover {
 		object-position: bottom center;
 	}
