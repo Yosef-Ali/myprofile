@@ -4,7 +4,7 @@ export const Img = styled.img`
 	width: 100%;
 	height: 40%;
 	object-fit: cover;
-	object-position: bottom;
+	object-position: top;
 	overflow: hidden;
 	transition: 0.5s;
 	transform: translateY(0); // Move the image back to the original position
