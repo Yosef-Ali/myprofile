@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const ImgWrapper = styled.div`
 width: 100%;
-height: 280px;
+height: 200px;
 overflow: hidden;
-margin: 10px auto;
+margin: 0 auto;
 ` 
 
 export const Img = styled.img`
