@@ -4,7 +4,7 @@ export const ImgWrapper = styled.div`
 width: 300px;
 height: 300px;
 overflow: hidden;
-margin: 50px auto;
+margin: 0 auto;
 ` 
 
 export const Img = styled.img`
