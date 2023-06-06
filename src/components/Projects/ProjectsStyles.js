@@ -12,7 +12,7 @@ export const Img = styled.img`
 	height: 100%;
 	object-fit: cover;
 	object-position: top center;
-    transition: all 3s ease-in-out;
+    transition: all 4s ease-in-out;
 	&:hover {
 		object-position: bottom center;
 	}
@@ -58,7 +58,7 @@ export const HeaderThree = styled.h3`
 	font-weight: 500;
 	letter-spacing: 2px;
 	color: #9cc9e3;
-	padding: 0.5rem 0;
+	padding: 0.5rem  0.5rem;
 	font-size: ${(props) => (props.title ? '3rem' : '2rem')};
 `;
 
