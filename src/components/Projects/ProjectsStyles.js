@@ -1,13 +1,20 @@
 import styled from 'styled-components';
 
+export const ImgWrapper = styled.div`
+width: 300px;
+height: 300px;
+overflow: hidden;
+margin: 50px auto;
+` 
+
 export const Img = styled.img`
 	width: 100%;
-	height: 40%;
+	height: 100%;
 	object-fit: cover;
-	overflow: hidden;
-	transition: transform 0.5s ease-in-out;
-	&:hover ${Img} {
-		transform: translateY(-100%);
+	object-position: top center;
+    transition: all 1s ease-in-out;
+	&:hover {
+		object-position: bottom center;
 	}
 `;
 
