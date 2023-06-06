@@ -20,11 +20,11 @@ export const projects = [
 		id: 1,
 	},
 	{
-		title: 'The Ethiopian Catholic Archdiocese of Addis Ababa',
+		title: 'Catholic Archdiocese of Addis Ababa',
 		description:
 			'CMS News and Blog',
 		image: '/images/acs-cms-web.png',
-		tags: ['React', 'NesxJs', 'GraphqlCMS', 'Headless Wordpress'],
+		tags: ['React', 'NesxJs', 'Graphql', 'Wordpress'],
 		source: '#',
 		visit: 'https://acs-cms-web-app.vercel.app/',
 		id: 2,
