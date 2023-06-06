@@ -20,6 +20,16 @@ export const projects = [
 		id: 1,
 	},
 	{
+		title: 'The Ethiopian Catholic Archdiocese of Addis Ababa',
+		description:
+			'CMS News and Blog',
+		image: '/images/acs-cms-web.png',
+		tags: ['React', 'NesxJs', 'GraphqlCMS', 'Headless Wordpress'],
+		source: '#',
+		visit: 'https://acs-cms-web-app.vercel.app/',
+		id: 2,
+	},
+	{
 		title: 'Nhcda.org',
 		description:
 			'E- commerce web to sell handmade and collect donation online. Under construction.',
@@ -27,7 +37,7 @@ export const projects = [
 		tags: ['React', 'Stripe', 'Elementor', 'wordpress'],
 		source: '#',
 		visit: 'http://nhcda.org/',
-		id: 2,
+		id: 3,
 	},
 	{
 		title: 'Central Hotel Jimma',
@@ -38,7 +48,7 @@ export const projects = [
 		source: '#',
 		visit:
 			'https://www.figma.com/proto/4dP4wfOCQQWGZM2h5WfTzq/CentrealJimma?page-id=0%3A1&node-id=22%3A2959&starting-point-node-id=22%3A0&scaling=min-zoom',
-		id: 3,
+		id: 4,
 	},
 ];
 
