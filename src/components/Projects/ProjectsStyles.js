@@ -4,14 +4,8 @@ export const Img = styled.img`
   width: 100%;
   height: 40%;
   object-fit: cover;
-  overflow: hidden;
-
-  transform:  translateY(0%);
-  transition: 0.5s;
-
-  &:hover {
-    transform:  translateY(-40%));
-  }
+  top: 0;
+  left: 0;
 `;
 
 export const GridContainer = styled.section`
