@@ -1,15 +1,17 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-	width: 100%;
-	height: 40%;
-	object-position: top;
-	overflow: hidden;
-	transition: 0.5s;
-	transform: translateY(0); // Move the image back to the original position
-	&:hover {
-	  transform: translateY(-100%); // Move the image up by 10px
-	}
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: 0.5s;
+
+  transform: translate(-50%, -50%) scale(0.4);
+
+  &:hover {
+    transform: translate(-50%, -50%);
+  }
 `;
 
 export const GridContainer = styled.section`
